@@ -21,7 +21,7 @@ class CreateStudentsTable extends Migration
             $table->date('brith_date');
             $table->integer('grade_id');
             $table->integer('classroom_id');
-            $table->integer('parent_id');
+            $table->integer('student_parent_id');
             $table->string('image');
             $table->timestamps();
         });
